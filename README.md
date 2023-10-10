@@ -32,20 +32,26 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 - add `export ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
-### 4. font
+### 4. neofetch
+```
+brew install neofetch
+```
+- add `neovim` at end of `~/.zshrc`.
+
+### 5. font
 ```
 brew tap homebrew/cask-fonts
 brew install --cask font-meslo-lg-nerd-font
 ```
 
-### 4. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+### 6. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 ```
 brew install zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 - add `zsh-autosuggestions` to `plugins` in `~/.zshrc`.
 
-### 5. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+### 7. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 ```
 brew install zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
@@ -53,7 +59,7 @@ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-### 6. Refresh
+### 8. Refresh
 ```
 source ~/.zshrc && zsh
 ```
