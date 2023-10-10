@@ -32,6 +32,12 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 - add `export ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
+### 4. font
+```
+brew tap homebrew/cask-fonts
+brew install --cask font-meslo-lg-nerd-font
+```
+
 ### 4. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 ```
 brew install zsh-autosuggestions
