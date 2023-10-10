@@ -1,4 +1,8 @@
 # macos_terminal 💻
+
+![Screenshot 2023-10-09 at 11 03 01 PM](https://github.com/ptmorris03/macos_terminal/assets/14167817/7b93e109-bae2-4749-a577-e320d2c2db7a)
+
+
 [iTerm2](https://iterm2.com/) configuration for macos
 
 # Prerequisites 🚦
